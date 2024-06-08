@@ -1,0 +1,112 @@
+#head{
+    width: 100%;
+    padding: 0 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    margin-left: 200px;
+}
+.mobile-menu-btn{
+    display: none;
+}
+
+
+#head .image{
+    max-width: 100%;
+    height: auto;
+    width: 175px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: inherit;
+}
+#head nav{
+    display: flex;
+}
+#head ul{
+    height: 100%;
+    padding-left: 40px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#head ul li{
+    position: relative;
+}
+#head ul li a{
+    display: block;
+    padding: 0 10px;
+    height: 100%;
+    line-height: 60px;
+    font-family: cursive;
+    color: #0E72CC;
+    background-color: white;
+    cursor: pointer;
+    transition: all ease-in-out 100ms;
+}
+
+#head ul li ul{
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+    position: absolute;
+    left: -40px;
+    transition: all ease-in-out 100ms;
+}
+#head ul li ul li a{
+    white-space: nowrap;
+    
+}
+#head ul li:hover>ul{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+#head .btn1{
+    background-color: #0E72CC;
+    color: white;
+    padding: 10px ;
+    margin-top: 28px;
+    margin-left: 50px;
+    
+}
+#head .btn1:hover{
+    background-color: rgb(3, 70, 129);
+    color: white;
+}
+
+#head .btn2{
+    background-color: #0E72CC;
+    color: white;
+    padding: 10px ;
+    margin-top: 28px;
+    margin-left: 5px;
+    
+}
+#head .btn2:hover{
+    background-color: rgb(3, 70, 129);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
